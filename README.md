@@ -2,11 +2,14 @@
 
 This repo has automation for the website https://the-internet.herokuapp.com/ 
 
-The automation is written in JavaScript using WebDriverIO and mocha framework. `chai` assertions are also used.
+The automation is written in `JavaScript` using `WebDriverIO` and `mocha` framework using `chai` assertions
 
-The reporter is `spec` and `allure`
+The reporters in this automation are:
+- `spec`
+- `allure`
 
 All locators can be found inside the `test > pages > herokuapp` folder
+
 All tests can be found inside the `test > specs > herokuapp` folder
 
 After cloning the repo for the first, run `npm install` to install all dependencies
