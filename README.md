@@ -6,6 +6,8 @@ All the locators can be found inside the `test > pages > herokuapp` folder
 
 All the tests can be found inside the `test > specs > herokuapp` folder
 
+After cloning the repo for the first, run `npm install` to install all dependencies
+
 To run the tests, run the following command in the terminal: `npm test`
 
 To clean up previous results and then run the tests, run the following command: `npm run automation`
