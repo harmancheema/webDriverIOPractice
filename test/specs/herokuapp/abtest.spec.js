@@ -8,6 +8,7 @@ describe('AB Tests', () => {
         homePage.abTest.click()
     })
 
+    // Make sure there is no AB Test
     it('No AB Test', () => {
         expect(abtestPage.noabTest).to.exist
     })
