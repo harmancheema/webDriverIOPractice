@@ -2,7 +2,7 @@ var abtestPage = require('../../pages/herokuapp/abtestPage')
 var homePage = require('../../pages/herokuapp/homePage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
-describe('AB Tests', () => {
+describe('AB Test', () => {
     it('Open home page', () => {
         browser.url(herokuapp)
         homePage.abTest.click()
