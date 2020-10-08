@@ -1,4 +1,4 @@
-# automationPractice
+# webDriverIOPractice
 
 This repo has automation for the website https://the-internet.herokuapp.com/ 
 
