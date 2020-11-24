@@ -6,7 +6,8 @@
   "scripts": {
     "test": "wdio",
     "automation": "rm -rf ./allure-results/* && npm run test",
-    "report": "allure generate ./allure-results --clean && allure open"
+    "generate-report": "allure generate ./allure-results --clean && allure open",
+    "open-report": "allure open"
   },
   "keywords": [],
   "author": "Harman Cheema",
@@ -22,6 +23,7 @@
     "wdio-chromedriver-service": "^6.0.4"
   },
   "dependencies": {
+    "allure-commandline": "^2.13.0",
     "chai": "^4.2.0"
   }
 }
