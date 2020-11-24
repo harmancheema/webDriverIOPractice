@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var hoversPage = require('../../pages/herokuapp/hoversPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var hoversPage = require('../../pageobjects/herokuapp/hoversPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Hovers', () => {

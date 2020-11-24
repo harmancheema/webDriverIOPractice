@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var dynamicLoadingPage = require('../../pages/herokuapp/dynamicLoadingPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var dynamicLoadingPage = require('../../pageobjects/herokuapp/dynamicLoadingPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Dynamic Loading', () => {

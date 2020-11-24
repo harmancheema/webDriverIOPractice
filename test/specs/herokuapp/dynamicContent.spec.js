@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var dynamicContentPage = require('../../pages/herokuapp/dynamicContentPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var dynamicContentPage = require('../../pageobjects/herokuapp/dynamicContentPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Dynamic Content', () => {

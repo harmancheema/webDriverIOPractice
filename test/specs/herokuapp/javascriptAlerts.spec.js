@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var javascriptAlertsPage = require('../../pages/herokuapp/javascriptAlertsPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var javascriptAlertsPage = require('../../pageobjects/herokuapp/javascriptAlertsPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Javascript Alerts', () => {

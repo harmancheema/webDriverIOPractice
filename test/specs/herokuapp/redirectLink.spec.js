@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var redirectLinkPage = require('../../pages/herokuapp/redirectLinkPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var redirectLinkPage = require('../../pageobjects/herokuapp/redirectLinkPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Redirect Link', () => {

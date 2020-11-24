@@ -1,5 +1,5 @@
-var abtestPage = require('../../pages/herokuapp/abtestPage')
-var homePage = require('../../pages/herokuapp/homePage')
+var abtestPage = require('../../pageobjects/herokuapp/abtestPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('AB Test', () => {

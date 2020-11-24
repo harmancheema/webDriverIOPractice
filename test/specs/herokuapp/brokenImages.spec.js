@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var brokenImagesPage = require('../../pages/herokuapp/brokenImagesPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var brokenImagesPage = require('../../pageobjects/herokuapp/brokenImagesPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Broken Images', () => {

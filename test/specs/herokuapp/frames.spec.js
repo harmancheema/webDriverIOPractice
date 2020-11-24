@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var framesPage = require('../../pages/herokuapp/framesPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var framesPage = require('../../pageobjects/herokuapp/framesPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Frames', () => {

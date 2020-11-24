@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var keypressesPage = require('../../pages/herokuapp/keypressesPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var keypressesPage = require('../../pageobjects/herokuapp/keypressesPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Key Presses', () => {

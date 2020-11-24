@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var addRemoveElementsPage = require('../../pages/herokuapp/addRemoveElementsPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var addRemoveElementsPage = require('../../pageobjects/herokuapp/addRemoveElementsPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Add/Remove Elements Test', () => {

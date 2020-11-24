@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var entryAdPage = require('../../pages/herokuapp/entryAdPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var entryAdPage = require('../../pageobjects/herokuapp/entryAdPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Entry Ad', () => {

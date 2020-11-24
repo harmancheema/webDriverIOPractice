@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var dropdownPage = require('../../pages/herokuapp/dropdownPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var dropdownPage = require('../../pageobjects/herokuapp/dropdownPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Dropdown', () => {

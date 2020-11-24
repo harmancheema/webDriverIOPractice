@@ -1,4 +1,4 @@
-var homePage = require('../../pages/herokuapp/homePage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('homePage tests', () => {

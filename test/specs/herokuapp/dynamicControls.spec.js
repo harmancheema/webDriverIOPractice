@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var dynamicControlsPage = require('../../pages/herokuapp/dynamicControlsPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var dynamicControlsPage = require('../../pageobjects/herokuapp/dynamicControlsPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Dynamic Controls', () => {

@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var newWindowPage = require('../../pages/herokuapp/newWindowPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var newWindowPage = require('../../pageobjects/herokuapp/newWindowPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('New Window', () => {

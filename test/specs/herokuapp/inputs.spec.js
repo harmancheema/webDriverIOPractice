@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var inputsPage = require('../../pages/herokuapp/inputsPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var inputsPage = require('../../pageobjects/herokuapp/inputsPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Inputs', () => {

@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var disappearingElementsPage = require('../../pages/herokuapp/disappearingElementsPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var disappearingElementsPage = require('../../pageobjects/herokuapp/disappearingElementsPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Disappearing Elements', () => {

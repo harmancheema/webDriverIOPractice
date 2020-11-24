@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var infiniteScrollPage = require('../../pages/herokuapp/infiniteScrollPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var infiniteScrollPage = require('../../pageobjects/herokuapp/infiniteScrollPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Infinite Scroll', () => {

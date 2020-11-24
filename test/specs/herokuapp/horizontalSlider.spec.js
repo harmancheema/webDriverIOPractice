@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var horizontalSliderPage = require('../../pages/herokuapp/horizontalSliderPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var horizontalSliderPage = require('../../pageobjects/herokuapp/horizontalSliderPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Horizontal Slider', () => {

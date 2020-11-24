@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var contextMenuPage = require('../../pages/herokuapp/contextMenuPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var contextMenuPage = require('../../pageobjects/herokuapp/contextMenuPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Context Menu', () => {

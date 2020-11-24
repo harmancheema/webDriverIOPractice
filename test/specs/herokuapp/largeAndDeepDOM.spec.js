@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var largeAndDeepDOMPage = require('../../pages/herokuapp/largeAndDeepDOMPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var largeAndDeepDOMPage = require('../../pageobjects/herokuapp/largeAndDeepDOMPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Large and Deep DOM', () => {

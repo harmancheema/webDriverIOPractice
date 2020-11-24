@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var dragAndDropPage = require('../../pages/herokuapp/dragAndDropPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var dragAndDropPage = require('../../pageobjects/herokuapp/dragAndDropPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Drag and Drop', () => {

@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var jqueryuiMenuPage = require('../../pages/herokuapp/jqueryuiMenuPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var jqueryuiMenuPage = require('../../pageobjects/herokuapp/jqueryuiMenuPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('JQuery UI Menu', () => {

@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var geolocationPage = require('../../pages/herokuapp/geolocationPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var geolocationPage = require('../../pageobjects/herokuapp/geolocationPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Geolocation', () => {

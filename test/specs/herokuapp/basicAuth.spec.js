@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var basicAuthPage = require('../../pages/herokuapp/basicAuthPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var basicAuthPage = require('../../pageobjects/herokuapp/basicAuthPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Basic Auth Tests', () => {

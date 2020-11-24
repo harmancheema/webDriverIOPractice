@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var notificationMessagePage = require('../../pages/herokuapp/notificationMessagePage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var notificationMessagePage = require('../../pageobjects/herokuapp/notificationMessagePage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Notification Message', () => {

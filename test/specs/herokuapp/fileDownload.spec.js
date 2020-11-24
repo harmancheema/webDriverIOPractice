@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var fileDownloadPage = require('../../pages/herokuapp/fileDownloadPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var fileDownloadPage = require('../../pageobjects/herokuapp/fileDownloadPage')
 var path = require('path')
 var fs = require('fs')
 var waitForFileExists = require('../../utils/waitForFileExists')

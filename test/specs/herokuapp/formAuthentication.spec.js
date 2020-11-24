@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var formAuthenticationPage = require('../../pages/herokuapp/formAuthenticationPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var formAuthenticationPage = require('../../pageobjects/herokuapp/formAuthenticationPage')
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
 describe('Form Authentication', () => {

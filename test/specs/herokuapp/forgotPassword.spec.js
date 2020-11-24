@@ -1,5 +1,5 @@
-var homePage = require('../../pages/herokuapp/homePage')
-var forgotPasswordPage = require('../../pages/herokuapp/forgotPasswordPage')
+var homePage = require('../../pageobjects/herokuapp/homePage')
+var forgotPasswordPage = require('../../pageobjects/herokuapp/forgotPasswordPage')
 var testEmail = "testEmailFP@mailinator.com"
 var herokuapp = require('../../../wdio.conf').config.herokuappURL
 
