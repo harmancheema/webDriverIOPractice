@@ -28,8 +28,8 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/specs/herokuapp/*.js'
-        // './test/specs/automationPractice/alerts.spec.js'
+        // './test/specs/herokuapp/*.js'
+        './test/specs/herokuapp/dragAndDrop.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -103,7 +103,7 @@ exports.config = {
           },
           // to run chrome headless the following flags are required
           // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
-          args: ['--headless', '--disable-gpu'],
+          // args: ['--headless', '--disable-gpu'],
         }
     }],
     //

@@ -15,13 +15,13 @@ describe('Drag and Drop', () => {
     it('Box A', () => {
         expect(dragAndDropPage.boxA).to.exist
         dragAndDropPage.boxA.dragAndDrop(dragAndDropPage.boxB)
-        browser.pause(2000)
+        browser.pause(5000)
     })
 
     it('Box B', () => {
         expect(dragAndDropPage.boxB).to.exist
         dragAndDropPage.boxB.dragAndDrop(dragAndDropPage.boxA)
-        browser.pause(2000)
+        browser.pause(5000)
     })
 
     it('Footer', () => {
