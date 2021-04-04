@@ -1,19 +1,20 @@
-# webDriverIOPractice
+# WebDriverIO Tests
 
-This repo has automation for the website https://the-internet.herokuapp.com/ 
+This repo has automation for the practice website https://the-internet.herokuapp.com/
 
-The automation is written in `JavaScript` using `WebDriverIO` and `mocha` framework using `chai` assertions
+:mega: **Language**: `JavaScript`
 
-The reporters in this automation are:
-- `spec`
-- `allure`
+:construction: **Framework**: `WebDriverIO` with `mocha` and `chai` assertions
 
-All locators can be found inside the `test > pages > herokuapp` folder
+:pencil: **Reporters**: `spec` and `allure`
 
-All tests can be found inside the `test > specs > herokuapp` folder
+:mag: **Locators**: `test > pages > herokuapp` folder
 
-After cloning the repo, run `npm install` once to install all dependencies
+:bulb: **Tests**: `test > specs > herokuapp` folder
 
+:microscope: **Steps to follow**:
+
+- Run `npm install` to install all dependencies
 - To run the tests: `npm test`
 - To clean up previous results and then run the tests: `npm run automation`
 - To generate an allure-report: `npm run report`
